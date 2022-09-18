@@ -41,7 +41,6 @@ stockProductos.forEach((Producto) => {
      <img src="./imagenes/${Producto.imagen}" style="height: 250px;" class="card-img-top" alt="Molten gg7X">
      <div class="card-body">
        <h5 class="card-title">${Producto.nombre}</h5>
-       <p class="card-text">Esta es una descripcion de la pelota que estas viendo pazo de mogodown</p>
        <p class="precio">Precio: $${Producto.precio}</p>
        <a href="#" id="btnAgregar${Producto.id}" class="btn btn-outline-success">Agregar al carrito.</a>
     </div>`
